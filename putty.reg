@@ -4,6 +4,5 @@ REGEDIT4
 "URL Protocol"="aaronmonkey.github.io/Websitee/"
 [HKEY_CLASSES_ROOT\ssh\shell]
 [HKEY_CLASSES_ROOT\ssh\shell\open]
-[HKEY_CLASSES_ROOT\ssh\shell\open\command]
-[HKEY_CLASSES_ROOT\ssh\shell\open\command\login]
+
 @="\"C:\Users\lequo\Documents\GitHub\Websitee\putty_util.bat\" %1"
