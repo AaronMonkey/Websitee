@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple</title>
+
+  <!-- DataTable Styles -->
+  <link rel="stylesheet" href="../dist/style.css">
+
+  <!-- Demo Styles -->
+  <link rel="stylesheet" href="../demo.css">
+</head>
+<body>
+  <h1>X460 GROUP 2</h1>
+  <table class="table">
+      <tr>
+        <td class="header">Host Name</td>
+        <td class="header">OID/Display Name</td>
+        <td class="header">Value</td>
+      </tr>
+        <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port Name</td><td class='value'>X460-24t Port 1</td></tr>
+<tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Admin Status</td><td class='value'>up(1)</td></tr>
+<tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Operation Status</td><td class='value'>up(1)</td></tr>
+<tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Packets</td><td class='value'>440 Packets</td></tr>
+<tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Peak Bytes</td><td class='value'>183</td></tr>
+<tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Average Bytes</td><td class='value'>0</td></tr>
+<tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Link Up/Down Trap</td><td class='value'>enabled(1)</td></tr>
+<tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>STP Port State</td><td class='value'>forwarding(5)</td></tr>
+<tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port Priority</td><td class='value'>16</td></tr>
+
+  </table>
+
+  <script type="module">
+    import {DataTable} from "../dist/module.js"
+    const table = new DataTable("table")
+  </script>
+</body>
+</html>
