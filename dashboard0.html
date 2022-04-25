@@ -1,25 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple</title>
+<style>
 
-  <!-- DataTable Styles -->
-  <link rel="stylesheet" href="../dist/style.css">
+td.hostname
+{
+    font-size:9pt;
+    vertical-align:top;
+}
 
-  <!-- Demo Styles -->
-  <link rel="stylesheet" href="../demo.css">
+td.oid
+{
+    font-size:9pt;
+    vertical-align:top;
+}
+
+
+td.value
+{
+    font-size:9pt;
+    vertical-align:top;
+}
+
+
+td.header
+{
+    background:#c0c0c0;
+}
+
+</style>
 </head>
-<body>
-  <h1>X460 GROUP 2</h1>
-  <table class="table">
-      <tr>
-        <td class="header">Host Name</td>
-        <td class="header">OID/Display Name</td>
-        <td class="header">Value</td>
-      </tr>
-        <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 1</td><td class='value'>up(1)</td></tr>
+<body style="font-family:Arial;">
+
+
+<div style="font-size:9pt;">
+<b>X460 Group 2</b>
+</div>
+<div style="font-size:14pt;font-weight:bold;">
+Dashboard: Port 0<br />
+</div>
+<table border="1" bordercolor="#e0e0e0" cellpadding="2" style="font-size:9pt;border-collapse:collapse;">
+<tr>
+<td class="header">Host Name</td>
+<td class="header">OID/Display Name</td>
+<td class="header">Value</td>
+</tr>
+<tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 1</td><td class='value'>up(1)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 1 Connectiion</td><td class='value'>up(1)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 2</td><td class='value'>down(2)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 2 Connection</td><td class='value'>down(2)</td></tr>
@@ -32,7 +57,7 @@
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 6</td><td class='value'>up(1)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 6 Connection</td><td class='value'>down(2)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 7</td><td class='value'>up(1)</td></tr>
-<tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 7 Connection</td><td class='value'>up(1)</td></tr>
+<tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 7 Connection</td><td class='value'>down(2)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 8</td><td class='value'>up(1)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 8 Connection</td><td class='value'>down(2)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 9</td><td class='value'>up(1)</td></tr>
@@ -50,17 +75,15 @@
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 15</td><td class='value'>up(1)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 15 Connection</td><td class='value'>down(2)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 16</td><td class='value'>up(1)</td></tr>
-<tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 16 Connection</td><td class='value'>up(1)</td></tr>
+<tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 16 Connection</td><td class='value'>down(2)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 17</td><td class='value'>up(1)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 17 Connection</td><td class='value'>down(2)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 18</td><td class='value'>up(1)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port 18 Connection</td><td class='value'>down(2)</td></tr>
 
-  </table>
+</table>
 
-  <script type="module">
-    import {DataTable} from "../dist/module.js"
-    const table = new DataTable("table")
-  </script>
+
+</div>
 </body>
 </html>
