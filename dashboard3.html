@@ -1,50 +1,50 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<style>
-
-td.hostname
-{
-    font-size:9pt;
-    vertical-align:top;
-}
-
-td.oid
-{
-    font-size:9pt;
-    vertical-align:top;
-}
-
-
-td.value
-{
-    font-size:9pt;
-    vertical-align:top;
-}
-
-
-td.header
-{
-    background:#c0c0c0;
-}
-
-</style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=2.0" />
+    <title>network_2</title>
+    <link rel="stylesheet" href="network_css.css" />
+    <script async src='/cdn-cgi/bm/cv/669835287/api.js'></script>
 </head>
-<body style="font-family:Arial;">
 
-
-<div style="font-size:9pt;">
-<b>X460 Group 2</b>
-</div>
-<div style="font-size:14pt;font-weight:bold;">
-Dashboard: Port 3<br />
-</div>
-<table border="1" bordercolor="#e0e0e0" cellpadding="2" style="font-size:9pt;border-collapse:collapse;">
-<tr>
-<td class="header">Host Name</td>
-<td class="header">OID/Display Name</td>
-<td class="header">Value</td>
-</tr>
-<tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port Name</td><td class='value'>X460-24t Port 3</td></tr>
+<body>
+    <header>
+        <div class="top_section">
+            <a href="KT_TH - Copy.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ6AbuSZyJlfAcNXR8iNvt0FbROJGvSdw7-Gv8_zAvewaLf0KLTihGhgcQo8WtVXWsjqg&usqp=CAU" alt="logo" /></a>
+            <div>
+                <h1>X460 Extreme Network</h1>
+            </div>
+            <div>
+                <h1>Group 2</h1>
+            </div>
+        </div>
+    </header>
+    <div class="outer_nav">
+        <div class="container_nav">
+            <div class="menu_cell">
+                <div><a href="network.html">Dashboard</a></div>
+                <div><a href="network_2.html">Configuration</a></div>
+                <div><a href="2">Port Detail</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="table">
+        <table border="1">
+            <tr>
+                <th>
+                    <div>HOST NAME</div>
+                </th>
+                <th>
+                    <div>OID Display</div>
+                </th>
+                <th>
+                    <div>VALUES</div>
+                </th>
+            </tr>
+            <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port Name</td><td class='value'>X460-24t Port 3</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Admin Status</td><td class='value'>up(1)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Operation Status</td><td class='value'>down(2)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Packets</td><td class='value'>0 Packets</td></tr>
@@ -54,9 +54,24 @@ Dashboard: Port 3<br />
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>STP Port State</td><td class='value'>forwarding(5)</td></tr>
 <tr class='dashboard'><td class='hostname'>192.168.255.253</td><td class='oid'>Port Priority</td><td class='value'>16</td></tr>
 
-</table>
-
-
-</div>
+        </table>
+    </div>
+    <script type="text/javascript">
+        (function() {
+            window['__CF$cv$params'] = {
+                r: '6de52045ca6d2f29',
+                m: 'gXO23CiBdSDMGJiOb8D8fKRLVxlDe6lDD80bBaiHStI-2644997208-0-Acdby7tc5Brqbvm4SKnqaz+A8HJeTpEKkLFTGEeWYktITq4tW7oQtOTASsfu2LmkgPwA2Jdt7LkMjRhbjrgQfdNQ6aA7G+kAyzGbpR8GdXIhbFS/LPse3M4p2W4XnR2zBvVlgOETU76jmVEc4I/MAVhS88C/6j7kOT0C/Z2XVHw4MlvpBPmnyFJ4Ro5EM7XyJEToGvfJHghDxt4rywe+izw=',
+                s: [0xa4bfa4e382, 0x658f244c25],
+            }
+        })();
+    </script>
 </body>
 </html>
+<script>
+    document.getElementById("checkAll").onclick = function() {
+        var checkboxes = document.getElementsByName("checkboxes");
+        for (var checkbox of checkboxes) {
+            checkbox.checked = this.checked;
+        }
+    };
+</script>
