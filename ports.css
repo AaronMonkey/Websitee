@@ -133,14 +133,12 @@
   text-align: center;
   text-decoration: none;
 }
-.btn_disable_all {
+.btn_status_all {
   color: #777777;
-  display: flex;
+  display: inline-block;
   font-size: 15px;
   text-align: center;
   margin-top: 25px;
-  justify-content: center;
-  align-items: center;
 }
 .btn_disable_primary {
   background-color:darkgrey;
@@ -155,17 +153,8 @@
   text-align: center;
   text-decoration: none;
 }
-.btn_enable_all {
-  color: #777777;
-  display: flex;
-  font-size: 15px;
-  text-align: center;
-  margin-top: 25px;
-  justify-content: center;
-  align-items: center;
-}
 .btn_enable_primary {
-  background-color:green;
+  background-color: green;
   border-radius: 3px;
   color: #ffffff;
   display: inline-block;
@@ -176,4 +165,9 @@
   padding: 8px 20px 9px;
   text-align: center;
   text-decoration: none;
+}
+.btn_group_all {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
 }
