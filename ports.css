@@ -84,7 +84,7 @@
   margin-top: 25px;
 }
 .btn_primary {
-  background-color: #cc0000;
+  background-color: green;
   border-radius: 3px;
   color: #ffffff;
   display: inline-block;
@@ -108,7 +108,7 @@
   margin-left: 35px;
 }
 .btn_enable {
-  background-color:green;
+  background-color:lightskyblue;
   border-radius: 3px;
   color: #ffffff;
   display: inline-block;
@@ -121,7 +121,7 @@
   text-decoration: none;
 }
 .btn_disable {
-  background-color:gray;
+  background-color:darkgrey;
   border-radius: 3px;
   color: #ffffff;
   display: inline-block;
@@ -142,15 +142,6 @@
   justify-content: center;
   align-items: center;
 }
-.btn_enable_all {
-  color: green;
-  display: flex;
-  font-size: 15px;
-  text-align: center;
-  margin-top: 25px;
-  justify-content: center;
-  align-items: center;
-}
 .btn_disable_primary {
   background-color:darkgrey;
   border-radius: 3px;
@@ -161,19 +152,6 @@
   line-height: 20.8px;
   margin: 0px 0px 5px;
   padding: 8px 20px 9px;
-  text-align: center;
-  text-decoration: none;
-}
-.btn_enable_primary {
-  background-color:green;
-  border-radius: 3px;
-  color: #ffffff;
-  display: inline-block;
-  font-family: Avo;
-  font-weight: 700;
-  line-height: 20.8px;
-  margin: 0px 0px 5px;
-  padding: 6px 20px 9px;
   text-align: center;
   text-decoration: none;
 }
