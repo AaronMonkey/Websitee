@@ -143,7 +143,7 @@
     align-items: center;
   }
   .btn_enable_primary {
-    background-color:darkgrey;
+    background-color:green;
     border-radius: 3px;
     color: #ffffff;
     display: inline-block;
@@ -163,4 +163,17 @@
     margin-top: 25px;
     justify-content: center;
     align-items: center;
+  }
+  .btn_disable_primary {
+    background-color:darkgrey;
+    border-radius: 3px;
+    color: #ffffff;
+    display: inline-block;
+    font-family: Avo;
+    font-weight: 700;
+    line-height: 20.8px;
+    margin: 0px 0px 5px;
+    padding: 8px 20px 9px;
+    text-align: center;
+    text-decoration: none;
   }
