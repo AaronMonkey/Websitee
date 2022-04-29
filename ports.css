@@ -84,7 +84,7 @@
   margin-top: 25px;
 }
 .btn_primary {
-  background-color: green;
+  background-color: #cc0000;
   border-radius: 3px;
   color: #ffffff;
   display: inline-block;
@@ -108,7 +108,7 @@
   margin-left: 35px;
 }
 .btn_enable {
-  background-color:lightskyblue;
+  background-color:green;
   border-radius: 3px;
   color: #ffffff;
   display: inline-block;
@@ -142,7 +142,16 @@
   justify-content: center;
   align-items: center;
 }
-.btn_disable_primary {
+.btn_enable_all {
+  color: #777777;
+  display: flex;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.btn_enable_primary {
   background-color:darkgrey;
   border-radius: 3px;
   color: #ffffff;
