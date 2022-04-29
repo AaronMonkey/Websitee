@@ -4,5 +4,6 @@
     ],
     "cSpell.ignoreWords": [
         "dropbtn"
-    ]
+    ],
+    "gitdoc.enabled": false
 }
