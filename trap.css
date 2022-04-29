@@ -133,15 +133,6 @@
     text-align: center;
     text-decoration: none;
   }
-  .btn_disable_all {
-    color: #777777;
-    display: flex;
-    font-size: 15px;
-    text-align: center;
-    margin-top: 25px;
-    justify-content: center;
-    align-items: center;
-  }
   .btn_enable_all {
     color: #777777;
     display: flex;
@@ -163,4 +154,13 @@
     padding: 8px 20px 9px;
     text-align: center;
     text-decoration: none;
+  }
+  .btn_disable_all {
+    color: #777777;
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
   }
