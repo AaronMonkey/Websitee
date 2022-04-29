@@ -53,7 +53,7 @@ body {
 
 .outer_nav {
   margin-top: 10px;
-  background-color: red;
+  background-color: #cc0000;
   color: #333333;
   font-size: 13px;
   text-align: left;
@@ -222,7 +222,7 @@ body {
 }
 
 .price {
-  color: red;
+  color: #cc0000;
   font-size: 20px;
   font-weight: 700;
   line-height: 18px;
